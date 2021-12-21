@@ -3,13 +3,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import {getFirestore} from "firebase/firestore"
 const provider = new GoogleAuthProvider();
 const firebaseConfig = {
-  apiKey: "AIzaSyAHt7g5rAMUac4SAcDUsOcORe1HFTjODsg",
-  authDomain: "cryptotracker-abe7f.firebaseapp.com",
-  projectId: "cryptotracker-abe7f",
-  storageBucket: "cryptotracker-abe7f.appspot.com",
-  messagingSenderId: "23873856459",
-  appId: "1:23873856459:web:5902312d508c0ed33e8c4e",
-  measurementId: "G-1E2RTMXTNT"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 export async function signIn () {
   signInWithPopup(auth, provider)
